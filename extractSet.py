@@ -27,7 +27,7 @@ if (file_to_load and file_to_save):
 
             with open(file_to_save, "w") as textfile:
                 for card in cards:
-                    textfile.write(f"{card['name']},{card['rarity']}\n")
+                    textfile.write(f"{card['name']};{card['rarity']}\n")
             messagebox.showinfo("Done", f'Extraction Complete. Please find your csv in {dir_to_save}')
         except json.decoder.JSONDecodeError:
             messagebox.showerror("Error","File Selected not a JSON")
