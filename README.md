@@ -2,7 +2,7 @@
 
 ## Overview
 
-Extracts Card Name &amp; Rarity using JSON sources from [https://mtgjson.com/](https://mtgjson.com/)
+Extracts Card Name &amp; Rarity using JSON sources from [https://mtgjson.com/](https://mtgjson.com/). Done as a request.
 
 ## Instructions
 
